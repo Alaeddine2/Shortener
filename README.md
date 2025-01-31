@@ -7,9 +7,8 @@ This repository contains both the backend and frontend components of a fully fea
 
 The service allows users to generate shortened URLs efficiently and includes advanced features such as:  
 - **QR Code Generation** – Create scannable QR codes for shortened links.  
-- **Link Analytics & Tracking** – Monitor usage metrics, including click counts and visitor insights.  
-- **Custom Short Links** – Enable users to personalize their shortened URLs.  
-- **Expiration & Security Controls** – Set expiration dates and manage access permissions.  
+- **Link Analytics & Tracking** – Monitor usage metrics, including click counts and visitor insights.
+- **Expiration & Security Controls** – Set expiration dates.  
 
 Designed to be secure, easy to use and useful.
 
@@ -285,7 +284,7 @@ Update URL
 }
 ```
 
-Update URL
+Delete URL
 
 -   **URL**: /user/urls/:shortId
 -   **Method**: Delete
